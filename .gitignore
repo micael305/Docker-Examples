@@ -36,3 +36,5 @@ Desktop.ini
 # NuGet and package caches
 packages/
 *.nupkg
+
+*.sln
