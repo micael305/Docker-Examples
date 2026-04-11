@@ -1,0 +1,38 @@
+# Build outputs
+bin/
+obj/
+out/
+publish/
+TestResults/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+
+# IDE folders
+.vs/
+.idea/
+.vscode/
+*.swp
+
+# Keep solution files tracked
+!*.sln
+
+# Logs
+*.log
+logs/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local environment files
+.env
+.env.*
+
+# NuGet and package caches
+packages/
+*.nupkg
