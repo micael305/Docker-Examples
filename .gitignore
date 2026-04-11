@@ -17,9 +17,6 @@ TestResults/
 .vscode/
 *.swp
 
-# Keep solution files tracked
-!*.sln
-
 # Logs
 *.log
 logs/
@@ -37,4 +34,5 @@ Desktop.ini
 packages/
 *.nupkg
 
+*Zone.Identifier
 *.sln
