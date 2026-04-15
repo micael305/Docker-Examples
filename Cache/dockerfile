@@ -1,0 +1,7 @@
+FROM nginx:1.21.6
+
+ARG cache_boost=1
+RUN apt-get update && apt-get upgrade -y
+
+RUN echo '<html><body>Mi página de inicio en html y personalizada, esta es su tercera versión</body></html>' > /usr/share/nginx/html/index.html
+
