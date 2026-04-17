@@ -27,4 +27,4 @@ jobs:
         token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
     - name: Deploy to DigitalOcean App Platform
       run: |
-        doctl apps create-deployment ${{ secrets.DO_APP_ID }}
+        doctl apps create-deployment --app ${{ secrets.DO_APP_ID }}
