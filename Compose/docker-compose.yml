@@ -1,0 +1,26 @@
+services:
+  proxy:
+    build: ./Proxy
+    ports:
+      - "8080:80"
+    networks:
+      - red_balance
+
+  sitio1:
+    build: ./Sitio1
+    networks:
+      - red_balance
+
+  sitio2:
+    build: ./Sitio2
+    networks:
+      - red_balance
+
+  sitio3:
+    build: ./Sitio3
+    networks:
+      - red_balance
+
+networks:
+  red_balance:
+    driver: bridge
