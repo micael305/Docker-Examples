@@ -34,5 +34,15 @@ Desktop.ini
 packages/
 *.nupkg
 
+# DevContainer and Node artifacts
+DevContainer/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.pnpm-store/
+.yarn/
+
 *Zone.Identifier
 *.sln
